@@ -1,0 +1,741 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="88.684" tests="44" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\HP\OneDrive\Desktop\PlayWright\PlayWright_HyBrid_FrameWork\target\test-classes;C:\Users\HP\OneDrive\Desktop\PlayWright\PlayWright_HyBrid_FrameWork\target\classes;C:\Users\HP\.m2\repository\com\microsoft\playwright\playwright\1.25.0\playwright-1.25.0.jar;C:\Users\HP\.m2\repository\com\google\code\gson\gson\2.8.9\gson-2.8.9.jar;C:\Users\HP\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\HP\.m2\repository\com\microsoft\playwright\driver\1.25.0\driver-1.25.0.jar;C:\Users\HP\.m2\repository\com\microsoft\playwright\driver-bundle\1.25.0\driver-bundle-1.25.0.jar;C:\Users\HP\.m2\repository\org\testng\testng\7.4.0\testng-7.4.0.jar;C:\Users\HP\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar;C:\Users\HP\.m2\repository\org\webjars\jquery\3.5.1\jquery-3.5.1.jar;C:\Users\HP\.m2\repository\com\aventstack\extentreports\5.0.8\extentreports-5.0.8.jar;C:\Users\HP\.m2\repository\io\reactivex\rxjava3\rxjava\3.0.4\rxjava-3.0.4.jar;C:\Users\HP\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\HP\.m2\repository\org\freemarker\freemarker\2.3.30\freemarker-2.3.30.jar;C:\Users\HP\.m2\repository\org\projectlombok\lombok\1.18.12\lombok-1.18.12.jar;C:\Users\HP\.m2\repository\org\apache\poi\poi\3.17\poi-3.17.jar;C:\Users\HP\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\Users\HP\.m2\repository\org\apache\commons\commons-collections4\4.1\commons-collections4-4.1.jar;C:\Users\HP\.m2\repository\org\apache\poi\poi-ooxml-schemas\3.17\poi-ooxml-schemas-3.17.jar;C:\Users\HP\.m2\repository\org\apache\xmlbeans\xmlbeans\2.6.0\xmlbeans-2.6.0.jar;C:\Users\HP\.m2\repository\stax\stax-api\1.0.1\stax-api-1.0.1.jar;C:\Users\HP\.m2\repository\org\apache\poi\poi-ooxml\3.17\poi-ooxml-3.17.jar;C:\Users\HP\.m2\repository\com\github\virtuald\curvesapi\1.04\curvesapi-1.04.jar;C:\Users\HP\.m2\repository\org\apache\logging\log4j\log4j-api\2.20.0\log4j-api-2.20.0.jar;C:\Users\HP\.m2\repository\org\apache\logging\log4j\log4j-core\2.20.0\log4j-core-2.20.0.jar;C:\Users\HP\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://openjdk.java.net/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-11.0.16\bin"/>
+    <property name="sun.java.command" value="C:\Users\HP\AppData\Local\Temp\surefire12904917957601154811\surefirebooter-20231028111235564_3.jar C:\Users\HP\AppData\Local\Temp\surefire12904917957601154811 2023-10-28T11-12-34_587-jvmRun1 surefire-20231028111235564_1tmp surefire_0-20231028111235564_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\HP\OneDrive\Desktop\PlayWright\PlayWright_HyBrid_FrameWork\target\test-classes;C:\Users\HP\OneDrive\Desktop\PlayWright\PlayWright_HyBrid_FrameWork\target\classes;C:\Users\HP\.m2\repository\com\microsoft\playwright\playwright\1.25.0\playwright-1.25.0.jar;C:\Users\HP\.m2\repository\com\google\code\gson\gson\2.8.9\gson-2.8.9.jar;C:\Users\HP\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\HP\.m2\repository\com\microsoft\playwright\driver\1.25.0\driver-1.25.0.jar;C:\Users\HP\.m2\repository\com\microsoft\playwright\driver-bundle\1.25.0\driver-bundle-1.25.0.jar;C:\Users\HP\.m2\repository\org\testng\testng\7.4.0\testng-7.4.0.jar;C:\Users\HP\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar;C:\Users\HP\.m2\repository\org\webjars\jquery\3.5.1\jquery-3.5.1.jar;C:\Users\HP\.m2\repository\com\aventstack\extentreports\5.0.8\extentreports-5.0.8.jar;C:\Users\HP\.m2\repository\io\reactivex\rxjava3\rxjava\3.0.4\rxjava-3.0.4.jar;C:\Users\HP\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\HP\.m2\repository\org\freemarker\freemarker\2.3.30\freemarker-2.3.30.jar;C:\Users\HP\.m2\repository\org\projectlombok\lombok\1.18.12\lombok-1.18.12.jar;C:\Users\HP\.m2\repository\org\apache\poi\poi\3.17\poi-3.17.jar;C:\Users\HP\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\Users\HP\.m2\repository\org\apache\commons\commons-collections4\4.1\commons-collections4-4.1.jar;C:\Users\HP\.m2\repository\org\apache\poi\poi-ooxml-schemas\3.17\poi-ooxml-schemas-3.17.jar;C:\Users\HP\.m2\repository\org\apache\xmlbeans\xmlbeans\2.6.0\xmlbeans-2.6.0.jar;C:\Users\HP\.m2\repository\stax\stax-api\1.0.1\stax-api-1.0.1.jar;C:\Users\HP\.m2\repository\org\apache\poi\poi-ooxml\3.17\poi-ooxml-3.17.jar;C:\Users\HP\.m2\repository\com\github\virtuald\curvesapi\1.04\curvesapi-1.04.jar;C:\Users\HP\.m2\repository\org\apache\logging\log4j\log4j-api\2.20.0\log4j-api-2.20.0.jar;C:\Users\HP\.m2\repository\org\apache\logging\log4j\log4j-core\2.20.0\log4j-core-2.20.0.jar;C:\Users\HP\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\HP"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2022-07-19"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-11.0.16"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\HP\OneDrive\Desktop\PlayWright\PlayWright_HyBrid_FrameWork"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\HP\AppData\Local\Temp\surefire12904917957601154811\surefirebooter-20231028111235564_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="11.0.16+11-LTS-199"/>
+    <property name="user.name" value="HP"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="18.9"/>
+    <property name="localRepository" value="C:\Users\HP\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\HP\AppData\Local\Temp\"/>
+    <property name="java.version" value="11.0.16"/>
+    <property name="user.dir" value="C:\Users\HP\OneDrive\Desktop\PlayWright\PlayWright_HyBrid_FrameWork"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-11.0.16\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Java\jdk-11.0.16\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Java\jdk1.8.0_202\bin;C:\Program Files\MySQL\MySQL Server 8.0\bin;C:\Program Files\nodejs\;C:\apache-maven-3.9.4\bin;C:\Program Files\Git\cmd;C:\Program Files\nodejs\node_modules;C:\Users\HP\AppData\Local\Android\Sdk\platform-tools;C:\Users\HP\AppData\Local\Android\Sdk\tools;C:\Users\HP\AppData\Local\Android\Sdk\build-tools;C:\Program Files\Android\Android Studio\bin;C:\Users\HP\.appium;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\HP\OneDrive\Desktop\jar\sikuli1\sikuli1\libs;C:\Users\HP\AppData\Local\Microsoft\WindowsApps;C:\Users\HP\AppData\Roaming\npm;."/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vm.version" value="11.0.16+11-LTS-199"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="55.0"/>
+  </properties>
+  <testcase name="HomePage_Title_Test" classname="Com.QA.test.PagesTest" time="0.802">
+    <system-out><![CDATA[Browser Name : chromium
+[DEBUG] 2023-10-28 11:12:55.443 [main] PagesTest - Debugging................
+HomePage_Title_Test started!
+Demo Web Shop
+[INFO ] 2023-10-28 11:12:55.716 [main] PagesTest - Verifying Home Page Title....
+[INFO ] 2023-10-28 11:12:55.724 [main] PagesTest - Verifying Home Page Title Success....
+HomePage_Title_Test passed!
+]]></system-out>
+  </testcase>
+  <testcase name="HomePage_Url_Test" classname="Com.QA.test.PagesTest" time="0.525">
+    <system-out><![CDATA[HomePage_Url_Test started!
+https://demowebshop.tricentis.com/
+[INFO ] 2023-10-28 11:12:56.607 [main] PagesTest - Verifying Home Page url....
+[INFO ] 2023-10-28 11:12:56.607 [main] PagesTest - Verifying Home Page url Success....
+HomePage_Url_Test passed!
+]]></system-out>
+  </testcase>
+  <testcase name="HomePage_Logo_Test" classname="Com.QA.test.PagesTest" time="0.55">
+    <system-out><![CDATA[HomePage_Logo_Test started!
+
+        
+            
+        
+    
+Home Page Logo : true
+[INFO ] 2023-10-28 11:12:57.266 [main] PagesTest - Verifying Home Page logo....
+[INFO ] 2023-10-28 11:12:57.266 [main] PagesTest - Verifying Home Page logo success....
+HomePage_Logo_Test passed!
+]]></system-out>
+  </testcase>
+  <testcase name="HomePage_Links_Test" classname="Com.QA.test.PagesTest" time="1.575">
+    <system-out><![CDATA[HomePage_Links_Test started!
+Home Page Links : nopCommerce
+[INFO ] 2023-10-28 11:12:58.858 [main] PagesTest - Verifying Home Page links....
+HomePage_Links_Test passed!
+]]></system-out>
+  </testcase>
+  <testcase name="HomePage_Products_Test" classname="Com.QA.test.PagesTest" time="1.507">
+    <system-out><![CDATA[HomePage_Products_Test started!
+$25 Virtual Gift Card
+14.1-inch Laptop
+Build your own cheap computer
+Build your own computer
+Build your own expensive computer
+Simple Computer
+No Of Products : 6
+Home Page Products : 6
+[INFO ] 2023-10-28 11:13:00.504 [main] PagesTest - Verifying Home Page products....
+[INFO ] 2023-10-28 11:13:00.504 [main] PagesTest - Verifying Home Page products success....
+HomePage_Products_Test passed!
+]]></system-out>
+  </testcase>
+  <testcase name="HomePage_Footer_Test" classname="Com.QA.test.PagesTest" time="3.284">
+    <system-out><![CDATA[HomePage_Footer_Test started!
+INFORMATION
+Sitemap
+Shipping & Returns
+Privacy Notice
+Conditions of Use
+About us
+Contact us
+CUSTOMER SERVICE
+Search
+News
+Blog
+Recently viewed products
+Compare products list
+New products
+MY ACCOUNT
+My account
+Orders
+Addresses
+Shopping cart
+Wishlist
+FOLLOW US
+Facebook
+Twitter
+RSS
+YouTube
+Google+
+INFORMATION
+Sitemap
+Shipping & Returns
+Privacy Notice
+Conditions of Use
+About us
+Contact us
+INFORMATION
+Sitemap
+Sitemap
+Shipping & Returns
+Privacy Notice
+Conditions of Use
+About us
+Contact us
+CUSTOMER SERVICE
+Search
+Search
+News
+Blog
+Recently viewed products
+Compare products list
+New products
+MY ACCOUNT
+My account
+My account
+Orders
+Addresses
+Shopping cart
+Wishlist
+FOLLOW US
+Facebook
+Facebook
+Twitter
+RSS
+YouTube
+Google+
+nopCommerce
+Home Page Footer links : 33
+[INFO ] 2023-10-28 11:13:03.621 [main] PagesTest - Verifying Home Page footer links....
+[INFO ] 2023-10-28 11:13:03.622 [main] PagesTest - Verifying Home Page footer links Success....
+HomePage_Footer_Test passed!
+]]></system-out>
+  </testcase>
+  <testcase name="HomePage_HeaderLinks_Test" classname="Com.QA.test.PagesTest" time="2.746">
+    <system-out><![CDATA[HomePage_HeaderLinks_Test started!
+BOOKS
+COMPUTERS
+Desktops
+        
+Notebooks
+        
+Accessories
+        
+ELECTRONICS
+Camera, photo
+        
+Cell phones
+        
+APPAREL & SHOES
+DIGITAL DOWNLOADS
+JEWELRY
+GIFT CARDS
+Books
+        
+Computers
+        
+Desktops
+        
+Notebooks
+        
+Accessories
+        
+Electronics
+        
+Camera, photo
+        
+Cell phones
+        
+Apparel & Shoes
+        
+Digital downloads
+        
+Jewelry
+        
+Gift Cards
+        
+Home Page Header links : 24
+[INFO ] 2023-10-28 11:13:06.429 [main] PagesTest - Verifying Home Page Header links....
+[INFO ] 2023-10-28 11:13:06.429 [main] PagesTest - Verifying Home Page Header links Success....
+HomePage_HeaderLinks_Test passed!
+]]></system-out>
+  </testcase>
+  <testcase name="LoginPage_Title_Test" classname="Com.QA.test.PagesTest" time="1.424">
+    <system-out><![CDATA[LoginPage_Title_Test started!
+Login Page title : Demo Web Shop. Login
+[INFO ] 2023-10-28 11:13:08.083 [main] PagesTest - Verifying login Page Title....
+[INFO ] 2023-10-28 11:13:08.084 [main] PagesTest - Verifying login Page Title success....
+LoginPage_Title_Test passed!
+]]></system-out>
+  </testcase>
+  <testcase name="LoginPage_Url_Test" classname="Com.QA.test.PagesTest" time="0.34">
+    <system-out><![CDATA[LoginPage_Url_Test started!
+Login Page url : https://demowebshop.tricentis.com/login
+[INFO ] 2023-10-28 11:13:08.434 [main] PagesTest - Verifying login Page url....
+[INFO ] 2023-10-28 11:13:08.434 [main] PagesTest - Verifying login Page url success....
+LoginPage_Url_Test passed!
+]]></system-out>
+  </testcase>
+  <testcase name="LoginPage_Hedaer_Test" classname="Com.QA.test.PagesTest" time="0.308">
+    <system-out><![CDATA[LoginPage_Hedaer_Test started!
+Welcome, Please Sign In!
+Login Page Header : true
+[INFO ] 2023-10-28 11:13:08.863 [main] PagesTest - Verifying login Page Header....
+[INFO ] 2023-10-28 11:13:08.863 [main] PagesTest - Verifying login Page Header success....
+LoginPage_Hedaer_Test passed!
+]]></system-out>
+  </testcase>
+  <testcase name="LoginPage_links_Test" classname="Com.QA.test.PagesTest" time="2.391">
+    <system-out><![CDATA[LoginPage_links_Test started!
+
+Register
+Log in
+Shopping cart
+(0)
+Wishlist
+(0)
+BOOKS
+COMPUTERS
+Desktops
+        
+Notebooks
+        
+Accessories
+        
+ELECTRONICS
+Camera, photo
+        
+Cell phones
+        
+APPAREL & SHOES
+DIGITAL DOWNLOADS
+JEWELRY
+GIFT CARDS
+
+            
+
+            Categories
+        
+Books
+        
+Computers
+        
+Desktops
+        
+Notebooks
+        
+Accessories
+        
+Electronics
+        
+Camera, photo
+        
+Cell phones
+        
+Apparel & Shoes
+        
+Digital downloads
+        
+Jewelry
+        
+Gift Cards
+        
+Books
+Computers
+Electronics
+Apparel & Shoes
+Digital downloads
+Jewelry
+Gift Cards
+Tricentis
+Forgot password?
+Sitemap
+Shipping & Returns
+Privacy Notice
+Conditions of Use
+About us
+Contact us
+Search
+News
+Blog
+Recently viewed products
+Compare products list
+New products
+My account
+Orders
+Addresses
+Shopping cart
+Wishlist
+Facebook
+Twitter
+RSS
+YouTube
+Google+
+nopCommerce
+No of Links on LoginPage : 62
+Login Page links : 62
+[INFO ] 2023-10-28 11:13:11.258 [main] PagesTest - Verifying login Page links....
+[INFO ] 2023-10-28 11:13:11.259 [main] PagesTest - Verifying login Page links Success....
+LoginPage_links_Test passed!
+]]></system-out>
+  </testcase>
+  <testcase name="LoginPage_AccountInfo_Test" classname="Com.QA.test.PagesTest" time="0.466">
+    <system-out><![CDATA[LoginPage_AccountInfo_Test started!
+By creating an account on our website you will be able to shop faster, be up to date on an orders status, and keep track of the orders you have previously made.
+Login Page Account Info : true
+[INFO ] 2023-10-28 11:13:11.598 [main] PagesTest - Verifying login Page Account info....
+[INFO ] 2023-10-28 11:13:11.598 [main] PagesTest - Verifying login Page Account info success....
+LoginPage_AccountInfo_Test passed!
+]]></system-out>
+  </testcase>
+  <testcase name="LoginPage_FooterLinks_Test" classname="Com.QA.test.PagesTest" time="1.349">
+    <system-out><![CDATA[LoginPage_FooterLinks_Test started!
+INFORMATION
+Sitemap
+Shipping & Returns
+Privacy Notice
+Conditions of Use
+About us
+Contact us
+CUSTOMER SERVICE
+Search
+News
+Blog
+Recently viewed products
+Compare products list
+New products
+MY ACCOUNT
+My account
+Orders
+Addresses
+Shopping cart
+Wishlist
+FOLLOW US
+Facebook
+Twitter
+RSS
+YouTube
+Google+
+no of Links in footer : 4
+4
+[INFO ] 2023-10-28 11:13:13.115 [main] PagesTest - Verifying login Page Footer links....
+[INFO ] 2023-10-28 11:13:13.115 [main] PagesTest - Verifying login Page Footer links success....
+LoginPage_FooterLinks_Test passed!
+]]></system-out>
+  </testcase>
+  <testcase name="LoginPage_Login_Test" classname="Com.QA.test.PagesTest" time="4.401">
+    <system-out><![CDATA[LoginPage_Login_Test started!
+[INFO ] 2023-10-28 11:13:16.975 [main] PagesTest - Verifying login Page login Action....
+LoginPage_Login_Test passed!
+]]></system-out>
+  </testcase>
+  <testcase name="AddToCartPage_Title_Test" classname="Com.QA.test.PagesTest" time="2.21">
+    <system-out><![CDATA[AddToCartPage_Title_Test started!
+Demo Web Shop. 14.1-inch Laptop
+[INFO ] 2023-10-28 11:13:19.517 [main] PagesTest - Verifying AddtoCart Page Title....
+[INFO ] 2023-10-28 11:13:19.517 [main] PagesTest - Verifying AddtoCart Page Title success....
+AddToCartPage_Title_Test passed!
+]]></system-out>
+  </testcase>
+  <testcase name="AddToCartPage_Url_Test" classname="Com.QA.test.PagesTest" time="0.503">
+    <system-out><![CDATA[AddToCartPage_Url_Test started!
+https://demowebshop.tricentis.com/141-inch-laptop
+[INFO ] 2023-10-28 11:13:20.082 [main] PagesTest - Verifying AddtoCart Page url....
+[INFO ] 2023-10-28 11:13:20.082 [main] PagesTest - Verifying AddtoCart Page url success....
+AddToCartPage_Url_Test passed!
+]]></system-out>
+  </testcase>
+  <testcase name="AddToCartPage_ProDuctOverview_Test" classname="Com.QA.test.PagesTest" time="1.699">
+    <system-out><![CDATA[AddToCartPage_ProDuctOverview_Test started!
+14.1-inch Laptop
+Unique Asian-influenced imprint wraps the laptop both inside and out
+Availability: In stock
+841 review(s) | Add your review
+1590.00
+Qty:  
+Product OverView : true
+[INFO ] 2023-10-28 11:13:21.697 [main] PagesTest - Verifying AddtoCart Page Product Overview....
+[INFO ] 2023-10-28 11:13:21.699 [main] PagesTest - Verifying AddtoCart Page Product Overview Success....
+AddToCartPage_ProDuctOverview_Test passed!
+]]></system-out>
+  </testcase>
+  <testcase name="AddToCartPage_ProDuctSpecification_Test" classname="Com.QA.test.PagesTest" time="1.58">
+    <system-out><![CDATA[AddToCartPage_ProDuctSpecification_Test started!
+Screensize	14.1''
+CPU Type	Intel
+Memory	3 GB
+Hardrive	250 GB
+Product Sepcification : true
+[INFO ] 2023-10-28 11:13:23.358 [main] PagesTest - Verifying AddtoCart Page Product Specification....
+[INFO ] 2023-10-28 11:13:23.358 [main] PagesTest - Verifying AddtoCart Page Product Specification success....
+AddToCartPage_ProDuctSpecification_Test passed!
+]]></system-out>
+  </testcase>
+  <testcase name="AddToCartPage_ProDuctInfo_Test" classname="Com.QA.test.PagesTest" time="0.713">
+    <system-out><![CDATA[AddToCartPage_ProDuctInfo_Test started!
+Optimize your mobility with a BrightView 14.1-inch display that has the same viewable area as a 15.4-inch screen--in a notebook that weighs a pound less. Encouraging more direct interaction, the backlit media control panel responds to the touch or sweep of a finger. Control settings for audio and video playback from up to 10 feet away with the included HP remote, then store it conveniently in the PC card slot.
+[INFO ] 2023-10-28 11:13:23.953 [main] PagesTest - Verifying AddtoCart Page Product info....
+[INFO ] 2023-10-28 11:13:23.953 [main] PagesTest - Verifying AddtoCart Page Product info success....
+AddToCartPage_ProDuctInfo_Test passed!
+]]></system-out>
+  </testcase>
+  <testcase name="AddToCartPage_ProDuctPrice_Test" classname="Com.QA.test.PagesTest" time="0.64">
+    <system-out><![CDATA[AddToCartPage_ProDuctPrice_Test started!
+1590.00
+[INFO ] 2023-10-28 11:13:24.673 [main] PagesTest - Verifying AddtoCart Page Product price....
+[INFO ] 2023-10-28 11:13:24.674 [main] PagesTest - Verifying AddtoCart Page Product price success....
+AddToCartPage_ProDuctPrice_Test passed!
+]]></system-out>
+  </testcase>
+  <testcase name="AddToCartPage_Links_Test" classname="Com.QA.test.PagesTest" time="1.84">
+    <system-out><![CDATA[AddToCartPage_Links_Test started!
+INFORMATION
+Sitemap
+Shipping & Returns
+Privacy Notice
+Conditions of Use
+About us
+Contact us
+CUSTOMER SERVICE
+Search
+News
+Blog
+Recently viewed products
+Compare products list
+New products
+MY ACCOUNT
+My account
+Orders
+Addresses
+Shopping cart
+Wishlist
+FOLLOW US
+Facebook
+Twitter
+RSS
+YouTube
+Google+
+No of Links on LoginPage : 4
+No Of Links : 4
+[INFO ] 2023-10-28 11:13:26.477 [main] PagesTest - Verifying AddtoCart Page links....
+[INFO ] 2023-10-28 11:13:26.477 [main] PagesTest - Verifying AddtoCart Page links Success....
+AddToCartPage_Links_Test passed!
+]]></system-out>
+  </testcase>
+  <testcase name="AddToCartPage_Footer_Links_Test" classname="Com.QA.test.PagesTest" time="1.826">
+    <system-out><![CDATA[AddToCartPage_Footer_Links_Test started!
+INFORMATION
+Sitemap
+Shipping & Returns
+Privacy Notice
+Conditions of Use
+About us
+Contact us
+CUSTOMER SERVICE
+Search
+News
+Blog
+Recently viewed products
+Compare products list
+New products
+MY ACCOUNT
+My account
+Orders
+Addresses
+Shopping cart
+Wishlist
+FOLLOW US
+Facebook
+Twitter
+RSS
+YouTube
+Google+
+no of Links in footer : 4
+No Of Links in footer : 4
+[INFO ] 2023-10-28 11:13:28.349 [main] PagesTest - Verifying AddtoCart Page footer links....
+[INFO ] 2023-10-28 11:13:28.350 [main] PagesTest - Verifying AddtoCart Page footer links success....
+AddToCartPage_Footer_Links_Test passed!
+]]></system-out>
+  </testcase>
+  <testcase name="AddToCartPage_Click_on_AddtoCart_Button_Test" classname="Com.QA.test.PagesTest" time="2.755">
+    <system-out><![CDATA[AddToCartPage_Click_on_AddtoCart_Button_Test started!
+[INFO ] 2023-10-28 11:13:31.208 [main] PagesTest - Verifying AddtoCart Page click on addtocart button....
+AddToCartPage_Click_on_AddtoCart_Button_Test passed!
+]]></system-out>
+  </testcase>
+  <testcase name="Checkout_Page_TitleTest" classname="Com.QA.test.PagesTest" time="0.343">
+    <system-out><![CDATA[Checkout_Page_TitleTest started!
+Checkout Page Title : Demo Web Shop. Shopping Cart
+[INFO ] 2023-10-28 11:13:31.709 [main] PagesTest - Verifying Checkout Page Title....
+[INFO ] 2023-10-28 11:13:31.709 [main] PagesTest - Verifying Checkout Page Title success....
+Checkout_Page_TitleTest passed!
+]]></system-out>
+  </testcase>
+  <testcase name="Checkout_Page_UrlTest" classname="Com.QA.test.PagesTest" time="0.371">
+    <system-out><![CDATA[Checkout_Page_UrlTest started!
+Checkout Page url : https://demowebshop.tricentis.com/cart
+[INFO ] 2023-10-28 11:13:32.036 [main] PagesTest - Verifying Checkout Page url....
+[INFO ] 2023-10-28 11:13:32.037 [main] PagesTest - Verifying Checkout Page url success....
+Checkout_Page_UrlTest passed!
+]]></system-out>
+  </testcase>
+  <testcase name="Checkout_Page_EstimateShipping_Test" classname="Com.QA.test.PagesTest" time="6.008">
+    <system-out><![CDATA[Checkout_Page_EstimateShipping_Test started!
+Ground (0.00)
+Compared to other shipping methods, like by flight or over seas, ground shipping is carried out closer to the earth
+Next Day Air (0.00)
+The one day air shipping
+2nd Day Air (0.00)
+The two day air shipping
+In-Store Pickup (0.00)
+Pick up your items at the store (put your store address here)
+Checkout Page Shipping : true
+[INFO ] 2023-10-28 11:13:38.009 [main] PagesTest - Verifying Checkout Page Shipping info....
+[INFO ] 2023-10-28 11:13:38.009 [main] PagesTest - Verifying Checkout Page Shipping info success....
+Checkout_Page_EstimateShipping_Test passed!
+]]></system-out>
+  </testcase>
+  <testcase name="Checkout_Page_Product_Price_Test" classname="Com.QA.test.PagesTest" time="1.527">
+    <system-out><![CDATA[Checkout_Page_Product_Price_Test started!
+[INFO ] 2023-10-28 11:13:39.488 [main] PagesTest - Verifying Checkout Page Product price....
+Sub-Total:	1590.00
+Shipping:	0.00
+Tax:	0.00
+Total:	1590.00
+Checkout_Page_Product_Price_Test passed!
+]]></system-out>
+  </testcase>
+  <testcase name="Checkout_Page_Product_InCart_Test" classname="Com.QA.test.PagesTest" time="0.564">
+    <system-out><![CDATA[Checkout_Page_Product_InCart_Test started!
+Product in Cart : true
+[INFO ] 2023-10-28 11:13:40.000 [main] PagesTest - Verifying Checkout Page product in cart....
+[INFO ] 2023-10-28 11:13:40.002 [main] PagesTest - Verifying Checkout Page product in cart success....
+Checkout_Page_Product_InCart_Test passed!
+]]></system-out>
+  </testcase>
+  <testcase name="Checkout_Page_Checkout_Click_Test" classname="Com.QA.test.PagesTest" time="3.077">
+    <system-out><![CDATA[Checkout_Page_Checkout_Click_Test started!
+[INFO ] 2023-10-28 11:13:43.136 [main] PagesTest - Verifying Checkout Page click on chckout button....
+Checkout_Page_Checkout_Click_Test passed!
+]]></system-out>
+  </testcase>
+  <testcase name="Address_Page_Title_Test" classname="Com.QA.test.PagesTest" time="0.319">
+    <system-out><![CDATA[Address_Page_Title_Test started!
+Address Page Title : Demo Web Shop. Checkout
+[INFO ] 2023-10-28 11:13:43.637 [main] PagesTest - Verifying Address Page title....
+[INFO ] 2023-10-28 11:13:43.637 [main] PagesTest - Verifying Address Page title success....
+Address_Page_Title_Test passed!
+]]></system-out>
+  </testcase>
+  <testcase name="Address_Page_Url_Test" classname="Com.QA.test.PagesTest" time="0.539">
+    <system-out><![CDATA[Address_Page_Url_Test started!
+Address Page url : https://demowebshop.tricentis.com/onepagecheckout
+[INFO ] 2023-10-28 11:13:43.941 [main] PagesTest - Verifying Address Page url....
+[INFO ] 2023-10-28 11:13:43.941 [main] PagesTest - Verifying Address Page url success....
+Address_Page_Url_Test passed!
+]]></system-out>
+  </testcase>
+  <testcase name="Address_Page_Address_Data_Test[ABC, Pune, Katraj, Pune, &quot;45465&quot;, &quot;5454564&quot;, &quot;878784564564&quot;](1)" classname="Com.QA.test.PagesTest" time="1.52">
+    <system-out><![CDATA[Address_Page_Address_Data_Test started!
+[INFO ] 2023-10-28 11:13:46.576 [main] PagesTest - Verifying Address Page Data....
+Address_Page_Address_Data_Test passed!
+]]></system-out>
+  </testcase>
+  <testcase name="Payment_Page_Title_Test" classname="Com.QA.test.PagesTest" time="0.541">
+    <system-out><![CDATA[Payment_Page_Title_Test started!
+Payment Page title : Demo Web Shop. Checkout
+[INFO ] 2023-10-28 11:13:47.032 [main] PagesTest - Verifying Payment Page Title....
+[INFO ] 2023-10-28 11:13:47.034 [main] PagesTest - Verifying Payment Page Title success....
+Payment_Page_Title_Test passed!
+]]></system-out>
+  </testcase>
+  <testcase name="Payment_Page_url_Test" classname="Com.QA.test.PagesTest" time="0.321">
+    <system-out><![CDATA[Payment_Page_url_Test started!
+Payment Page title : https://demowebshop.tricentis.com/onepagecheckout
+[INFO ] 2023-10-28 11:13:47.556 [main] PagesTest - Verifying Payment Page url....
+[INFO ] 2023-10-28 11:13:47.556 [main] PagesTest - Verifying Payment Page url success....
+Payment_Page_url_Test passed!
+]]></system-out>
+  </testcase>
+  <testcase name="Payment_Page_ContinueAction_Test" classname="Com.QA.test.PagesTest" time="2.886">
+    <system-out><![CDATA[Payment_Page_ContinueAction_Test started!
+[INFO ] 2023-10-28 11:13:50.235 [main] PagesTest - Verifying Payment Page click on continue buttons....
+Payment_Page_ContinueAction_Test passed!
+]]></system-out>
+  </testcase>
+  <testcase name="Payment_Page_PaymentMethods_Test" classname="Com.QA.test.PagesTest" time="2.648">
+    <system-out><![CDATA[Payment_Page_PaymentMethods_Test started!
+ Cash On Delivery (COD) (7.00)
+ Check / Money Order (5.00)
+ Credit Card
+ Purchase Order
+Payment Methods : true
+[INFO ] 2023-10-28 11:13:53.040 [main] PagesTest - Verifying Payment Page Payment methods....
+[INFO ] 2023-10-28 11:13:53.041 [main] PagesTest - Verifying Payment Page Payment methods success....
+Payment_Page_PaymentMethods_Test passed!
+]]></system-out>
+  </testcase>
+  <testcase name="Payment_Page_PaymentInformation_Test" classname="Com.QA.test.PagesTest" time="2.727">
+    <system-out><![CDATA[Payment_Page_PaymentInformation_Test started!
+You will pay by COD
+Payment Information : true
+[INFO ] 2023-10-28 11:13:55.595 [main] PagesTest - Verifying Payment Page Payment info....
+[INFO ] 2023-10-28 11:13:55.595 [main] PagesTest - Verifying Payment Page Payment info success....
+Payment_Page_PaymentInformation_Test passed!
+]]></system-out>
+  </testcase>
+  <testcase name="Payment_Page_BillingInfo_Test" classname="Com.QA.test.PagesTest" time="1.503">
+    <system-out><![CDATA[Payment_Page_BillingInfo_Test started!
+Billing Address
+tejas QA
+Email: Test@12gmail.com
+Phone: 5768
+Fax: 37375
+jjtyjtyj
+htyrty
+piopio
+hgfhfgh , qweqwe
+Albania
+Payment Method
+Cash On Delivery (COD)
+[INFO ] 2023-10-28 11:13:57.211 [main] PagesTest - Verifying Payment Page biiling information....
+Payment_Page_BillingInfo_Test passed!
+]]></system-out>
+  </testcase>
+  <testcase name="Payment_Page_ShippingInfo_Test" classname="Com.QA.test.PagesTest" time="1.623">
+    <system-out><![CDATA[Payment_Page_ShippingInfo_Test started!
+Shipping Address
+tejas QA
+Email: Test@12gmail.com
+Phone: 5768
+Fax: 37375
+jjtyjtyj
+htyrty
+piopio
+hgfhfgh , qweqwe
+Albania
+Shipping Method
+Ground
+[INFO ] 2023-10-28 11:13:58.726 [main] PagesTest - Verifying Payment Page Shipping  information....
+Payment_Page_ShippingInfo_Test passed!
+]]></system-out>
+  </testcase>
+  <testcase name="Payment_Page_FinalpriceInfo_Test" classname="Com.QA.test.PagesTest" time="1.518">
+    <system-out><![CDATA[Payment_Page_FinalpriceInfo_Test started!
+Sub-Total:	1590.00
+Shipping: (Ground)	0.00
+Payment method additional fee:	7.00
+Tax:	0.00
+Total:	1597.00
+[INFO ] 2023-10-28 11:14:00.343 [main] PagesTest - Verifying Payment Page final price ....
+Payment_Page_FinalpriceInfo_Test passed!
+]]></system-out>
+  </testcase>
+  <testcase name="Payment_Page_ClickConfirmOrder_Test" classname="Com.QA.test.PagesTest" time="1.918">
+    <system-out><![CDATA[Payment_Page_ClickConfirmOrder_Test started!
+[INFO ] 2023-10-28 11:14:02.259 [main] PagesTest - Verifying Payment Page continue button....
+Payment_Page_ClickConfirmOrder_Test passed!
+]]></system-out>
+  </testcase>
+  <testcase name="Payment_Page_FinalPageLogo_Test" classname="Com.QA.test.PagesTest" time="0.396">
+    <system-out><![CDATA[Payment_Page_FinalPageLogo_Test started!
+Thank you
+Final Page Logo : true
+[INFO ] 2023-10-28 11:14:02.879 [main] PagesTest - Verifying Payment Page final logo....
+[INFO ] 2023-10-28 11:14:02.880 [main] PagesTest - Verifying Payment Page final logo success....
+Payment_Page_FinalPageLogo_Test passed!
+]]></system-out>
+  </testcase>
+  <testcase name="Payment_Page_OrderConfirmation_Test" classname="Com.QA.test.PagesTest" time="0.325">
+    <system-out><![CDATA[Payment_Page_OrderConfirmation_Test started!
+Your order has been successfully processed!
+Order Confirmation message : true
+[INFO ] 2023-10-28 11:14:03.227 [main] PagesTest - Verifying Payment Page Order confirmtion message....
+[INFO ] 2023-10-28 11:14:03.227 [main] PagesTest - Verifying Payment Page Order confirmtion message success....
+Payment_Page_OrderConfirmation_Test passed!
+]]></system-out>
+  </testcase>
+  <testcase name="Payment_Page_OrderNumber_Test" classname="Com.QA.test.PagesTest" time="0.332">
+    <system-out><![CDATA[Payment_Page_OrderNumber_Test started!
+Order number: 1534529
+Order number  : true
+[INFO ] 2023-10-28 11:14:03.538 [main] PagesTest - Verifying Payment Page Order confirmtion number....
+[INFO ] 2023-10-28 11:14:03.538 [main] PagesTest - Verifying Payment Page Order confirmtion number success....
+Payment_Page_OrderNumber_Test passed!
+]]></system-out>
+  </testcase>
+</testsuite>
